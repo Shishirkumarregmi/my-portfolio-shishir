@@ -1,0 +1,119 @@
+/* Experience.css */
+
+.experience-container {
+  padding: 40px;
+}
+
+.experience-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: navy;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.timeline-content {
+  margin-left: 20px;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: navy;
+  border-radius: 50%;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-content h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.timeline-content .job-title {
+  font-size: 18px;
+  color: navy;
+  margin-bottom: 10px;
+}
+
+.timeline-content .duration {
+  font-size: 16px;
+  color: #888;
+}
+
+.responsibilities {
+  margin-top: 10px;
+}
+
+.responsibilities li {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+/* Experience.css */
+
+/* ... existing styles ... */
+
+/* Experience.css */
+
+/* ... existing styles ... */
+
+/* Experience.css */
+
+/* ... existing styles ... */
+
+.page-title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333; /* Set the title color to a dark shade */
+  }
+  
+  .vertical-timeline-element-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .vertical-timeline-element-subtitle {
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.8;
+    margin-top: 5px;
+  }
+  
+  .responsibilities {
+    margin-top: 10px;
+  }
+  
+  .responsibilities li {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+  }
+  
+  /* ... existing styles ... */
+  
+  
+  /* ... existing styles ... */
+  
+  
+  /* ... existing styles ... */
+  

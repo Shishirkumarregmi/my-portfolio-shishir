@@ -1,0 +1,47 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Make the container fill the viewport height */
+    background-color: #f7f7f7; /* Add a light background color */
+    padding: 20px;
+  }
+  
+  .home-container h1 {
+    font-size: 36px;
+    color: navy;
+    margin-bottom: 20px;
+  }
+  
+  .home-container p {
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .contact-info {
+    margin-top: 40px;
+    font-size: 16px;
+    text-align: left;
+    max-width: 600px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .contact-info a {
+    color: navy;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
